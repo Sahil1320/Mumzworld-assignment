@@ -59,6 +59,7 @@ npm run dev
 ```
 
 Open http://localhost:5173
+Live - https://mumzworld-assignment-1.onrender.com/
 
 ## Features
 
