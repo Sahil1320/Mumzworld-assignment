@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./index.css";
 
-const API_URL = "http://localhost:3001/api/gifts";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001/api/gifts";
 
 const SUGGESTIONS = {
   en: [
@@ -85,7 +85,7 @@ function App() {
 
       setResult(data.data);
     } catch (err) {
-      setError("Could not connect to the server. Make sure the backend is running on port 3001.");
+      setError("Could not connect to the server. Please check your connection.");
     } finally {
       setLoading(false);
     }
