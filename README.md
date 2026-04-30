@@ -4,6 +4,8 @@
 
 An AI-powered gift recommendation engine for Mumzworld — the largest mother & baby e-commerce platform in the Middle East. Users describe who they're shopping for in natural language (English or Arabic), and the system returns a curated shortlist of gifts with bilingual reasoning, confidence scores, and honest uncertainty handling.
 
+Loom Video Link - https://www.loom.com/share/c3420b3b7e05426f91e5a72a20938e32
+
 ## Architecture
 
 ```
